@@ -38,7 +38,7 @@ call dein#add('vim-airline/vim-airline')
 call dein#add('vim-airline/vim-airline-themes')
 call dein#add('edkolev/tmuxline.vim')
 
-call dein#add('neoclide/coc.nvim', {'rev': 'release'})
+call dein#add('neoclide/coc.nvim', {'merged': 0, 'rev': 'release'})
 
 " fuzzy finder {{{
 
