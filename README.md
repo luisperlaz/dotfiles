@@ -26,4 +26,5 @@ sudo curl -sL install-node.vercel.app/lts | sudo bash
 :CocInstall coc-pyright
 :CocInstall coc-snippets
 :CocInstall coc-word
+:CocInstall coc-sh
 ```
