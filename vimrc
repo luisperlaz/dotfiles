@@ -534,6 +534,9 @@ command! -bang -nargs=* Ag
 
 :nnoremap <C-p> :FZF<CR>
 
+" Open the buffers selection using FZF.
+:nnoremap <C-b> :Buffers<CR>
+
 
 " }}}
 "
