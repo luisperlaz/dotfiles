@@ -39,6 +39,7 @@ call dein#add('vim-airline/vim-airline-themes')
 call dein#add('edkolev/tmuxline.vim')
 
 call dein#add('neoclide/coc.nvim', {'merged': 0, 'rev': 'release'})
+call dein#add('liuchengxu/vista.vim')
 
 " fuzzy finder {{{
 
@@ -448,11 +449,16 @@ let g:ale_javascript_eslint_use_global = 1
 "
 "let g:tagbar_ctags_bin='/home/luis/local/ctags-5.8/ctags'
 "let g:tagbar_ctags_bin='exctags'
-let g:tagbar_ctags_bin='ctags-universal'
-nnoremap <silent> <F10> :TagbarToggle<CR>
+" let g:tagbar_ctags_bin='ctags-universal'
+" nnoremap <silent> <F10> :TagbarToggle<CR>
 
 " }}}
 "
+" Vista.vim {{{
+
+nnoremap <silent> <F10> :Vista!!<CR>
+
+" }}}
 "vimux {{{
 "
 " Prompt for a command to run
